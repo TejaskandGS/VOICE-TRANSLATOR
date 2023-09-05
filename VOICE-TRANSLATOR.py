@@ -25,6 +25,7 @@ def text_to_speech(text, output_file, lang_code):
     tts.save(output_file)
   
 # Recognize speech from the input voice
+print("SPEAK NOW")
 input_voice = recognize_speech()
 
 if input_voice:
