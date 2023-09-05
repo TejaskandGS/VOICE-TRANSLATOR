@@ -49,8 +49,7 @@ if recognized_text:
     # Define the target language for translation
     speak("tell your desired language")
     target_language = recognize_speech()
-    target = target_language[0:2].lower()# Replace with your target language code (e.g., "fr" for French)
-    print(target)
+    target = target_language[0:2].lower()
     # Translate the recognized text to the target language
     translated_text = translate_text(recognized_text, target)
 
